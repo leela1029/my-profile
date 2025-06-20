@@ -1,0 +1,73 @@
+*{
+    font-family: Georgia;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body{
+     margin: 0;
+     background-color: beige;
+}
+header{
+     height: 100vh;
+     background-color: blanchedalmond;
+     border-radius: 50px;
+     margin-bottom: 20px;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+.button{
+    height: 40px;
+    width: 140px;
+    background-color:  azure;
+    cursor: pointer;
+}
+.button:hover{
+color:chartreuse;
+}
+section{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-bottom: 20px;
+
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    background-color:  azure;
+    cursor: pointer;
+}
+.submit:hover{
+color:chartreuse;
+}
+input{
+    height: 26px;
+    border-radius: 6px;
+    border: 2px solid azure;
+}
+.fixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: red;
+
+
+}
+footer{
+    height: 140px;
+    background-color: black;
+    color: lightgrey;
+}
