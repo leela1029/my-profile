@@ -1,7 +1,7 @@
 <script>
         // Scroll to top button
         document.getElementById("scrollTop").addEventListener("click", function () {
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.scrollTo({ top: 0, behavior: "smooth" })
         });
 
         // Form validation
@@ -16,7 +16,7 @@
                 return;
             }
 
-            if (bio.length < 20) {
+            if (bio.length < 20%) {
                 alert("Bio must be at least 20 characters long.");
                 return;
             }
